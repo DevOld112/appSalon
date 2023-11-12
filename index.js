@@ -26,7 +26,7 @@ db()
 
 //Configurar CORS (Conectar frontend con backend)
 
-const whiteList = [process.env.FRONTEND_URL, undefined]
+const whiteList = [process.env.FRONTEND_URL]
 
 const corsOption = {
     origin: function(origin, callback){
