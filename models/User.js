@@ -26,7 +26,7 @@ const userSchema = mongoose.Schema({
     },
     verified: {
         type : Boolean, 
-        default: false
+        default: true
     },
     admin: {
         type: Boolean,
